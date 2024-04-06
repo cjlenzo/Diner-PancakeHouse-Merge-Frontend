@@ -1,4 +1,4 @@
-let host = "http://localhost:8080";
+let host = "https://diner-pancakehouse-merge-latest-vppk.onrender.com";
     
 async function signUp() {
   let u = document.getElementById("user").value;
@@ -17,6 +17,7 @@ async function signUp() {
 
   if (response.status == 200) {
       message = "All good"
+      alert(message);
       window.location.href = "login.html";
   } 
   else {
@@ -25,7 +26,7 @@ async function signUp() {
       alert(message);
   }
   console.log(message);
-  alert(message)
+  alert(message);
 }
 
 function navigateBack() {

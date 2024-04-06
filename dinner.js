@@ -1,4 +1,4 @@
-let host = "http://localhost:8080";
+let host = "https://diner-pancakehouse-merge-latest-vppk.onrender.com";
     let menuDiv = document.getElementById("menu");
 
     displayTheMenu();
